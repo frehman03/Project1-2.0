@@ -18,7 +18,7 @@ class Point {
 		Fraction getx() {return x; }
 		Fraction gety() {return y; }
 		
-	private:
+	public:
 		Fraction x, y;
 		
 };

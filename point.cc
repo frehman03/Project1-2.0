@@ -25,9 +25,9 @@
 
  		Point Point::operator*(Fraction rhs)
 		{
-			Fraction x, y;
-			x = x * rhs;
-			y = y * rhs;
+			Fraction xcoordinate, ycoordinate;
+			xcoordinate = x * rhs;
+			ycoordinate = y * rhs;
 			return Point(x, y);
 		}
 
